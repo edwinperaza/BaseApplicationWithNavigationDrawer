@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/group_player_games"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_challenge"
+            android:title="Desafíos" />
+        <item
+            android:id="@+id/nav_game"
+            android:title="Partidos" />
+        <item
+            android:id="@+id/nav_ranking"
+            android:title="Ranking" />
+        <item
+            android:id="@+id/nav_team"
+            android:title="Equipo" />
+    </group>
+
+    <group android:id="@+id/group_player_profile"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Cuenta" />
+    </group>
+
+</menu>
